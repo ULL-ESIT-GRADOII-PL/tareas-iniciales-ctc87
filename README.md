@@ -1,3 +1,5 @@
+* [My github page](https://ctc87.github.io/)
+* [PL subject page](http://ctc87.github.io/Practicas_PL/)
 #First Practice of PL
 This is the first practice of Lenguage Procesors. This is called "First Tasks" and decribe :
 1. Install git
@@ -6,4 +8,4 @@ This is the first practice of Lenguage Procesors. This is called "First Tasks" a
 4. Install Atom
 5. Install MarckDownPreviewPLus
 
-![Octogit](/images/Octocat.png  )
+![Octogit](/images/Octocat.png)

@@ -1,5 +1,3 @@
-* [My github page](https://ctc87.github.io/)
-* [PL subject page](http://ctc87.github.io/Practicas_PL/)
 # Initial tasks in PL
 ## Tasks:
 All of these tasks are explained for use it in Ubuntu:
