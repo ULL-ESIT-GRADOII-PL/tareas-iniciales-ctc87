@@ -1,7 +1,10 @@
 * [My github page](https://ctc87.github.io/)
 * [PL subject page](http://ctc87.github.io/Practicas_PL/)
+
 #First Practice of PL
-This is the first practice of Lenguage Procesors. This is called "First Tasks" and decribe :
+
+This is the first practice of Lenguage Procesors. This is called "First Tasks" and decribe
+
 1. Install git
 2. Introduction to node.js
 3. Install and use Pandoc
