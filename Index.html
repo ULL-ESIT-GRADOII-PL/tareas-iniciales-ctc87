@@ -1,0 +1,117 @@
+<h1 id="initial-tasks-in-pl">Initial tasks in PL</h1>
+<h2 id="tasks">Tasks:</h2>
+<p>All of these tasks are explained for use it in Ubuntu:</p>
+<ol type="1">
+<li>Install git</li>
+<li>Introduction to node.js</li>
+<li>Install and use Pandoc</li>
+<li>Install Atom</li>
+<li>Install MarckDown-Preview-Plus</li>
+</ol>
+<h2 id="install-git">1 install git</h2>
+<p>In ubuntu install git in very simple. Open your bash terminal and use package manager like this:</p>
+<p><code>$ sudo apt-get install git</code></p>
+<p>To ensure it is installed correctly,: write in your terminal:</p>
+<p><code>$ git --help</code></p>
+<p><img src="images/git.png" title="gitHelp" alt="Imagen 4" /> And you see something like this:</p>
+<h2 id="introduction-to-node.js">2 Introduction to node.js</h2>
+<p>Little tutorial to install and example of use node.js based on the tutorial of the officia page(see fonts section)</p>
+<h3 id="introduction">Introduction</h3>
+<p>Node.js is an open source, cross-platform runtime environment for server-side and networking applications. Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, and IBM i.</p>
+<p>Node.js provides an event-driven architecture and a non-blocking I/O API that optimizes an application's throughput and scalability. These technologies are commonly used for real-time web applications.</p>
+<p>Node.js uses the Google V8 JavaScript engine to execute code, and a large percentage of the basic modules are written in JavaScript. Node.js contains a built-in library to allow applications to act as a Web server without software such as Apache HTTP Server or IIS</p>
+<h3 id="instalation">Instalation</h3>
+<p>1-First run http://nodejs.org/<br />2-Push install:<br /><img src="images/install.png" title="Install icon" alt="Imagen 1" /></p>
+<p>3-When the file is downloaded open shell and put the following commands:<br /> To decompress:<br /> <code>$ tar xzvf node-v0.10.36.tar.gz</code><br /> To install:<br /> <code>$ cd node-v0.10.36</code><br /> <code>$ sudo make</code> <code>$ sudo make install</code><br /> <code>$ sudo ./configure</code><br /> Delete temporary stuff:<br /> <code>$ cd ..</code> <code>$ rm -rf node-v0.10.36.tar.gz node-v0.10.36</code><br />We have now installed node.js</p>
+<h3 id="ejamples-of-use">Ejamples of use</h3>
+<p>This simple web server written in Node responds with &quot;Hello World&quot; for every request.</p>
+<pre><code>var http = require(&#39;http&#39;);  
+http.createServer(function (req, res) {  
+  res.writeHead(200, {&#39;Content-Type&#39;: &#39;text/plain&#39;});  
+  res.end(&#39;Hello World\n&#39;);  
+}).listen(1337, &#39;127.0.0.1&#39;);  
+console.log(&#39;Server running at http://127.0.0.1:1337/&#39;);  </code></pre>
+<p>To run the server, put the code into a file example.js and execute it with the node program from the command line.<br /><code>$ node example.js</code><br />Server running at http://127.0.0.1:1337/</p>
+<p>And you can see in http://127.0.0.1:1337/<br /><img src="images/hello.png" title="example1" alt="Imagen 2" /></p>
+<p>Here is an example of a simple TCP server which listens on port 1337 and echoes whatever you send it:<br /><code>$ node</code></p>
+<p>And write:</p>
+<pre><code>&gt;var net = require(&#39;net&#39;);
+
+&gt;var server = net.createServer(function (socket) {
+  socket.write(&#39;Echo server\r\n&#39;);
+  socket.pipe(socket);
+});
+
+&gt;server.listen(1337, &#39;127.0.0.1&#39;);</code></pre>
+<p>Then you can see the petition of the browser, in http://127.0.0.1:1337/<br /><img src="images/echopetition.png" title="example2" alt="Imagen 3" /><br />you can change server configuration inline with command node. This produces a<br />loop where the code are written and executed in real time.</p>
+<h2 id="install-and-use-pandoc">3 Install and use Pandoc</h2>
+<p>Pandoc is a free and open-source software document converter, widely used as a writing tool.</p>
+<h3 id="instalation-1">Instalation</h3>
+<p>To install it in ubutu put this command in the terminal.</p>
+<p><code>$sudo apt-get install pandoc</code></p>
+<h3 id="using-pandoc">Using Pandoc</h3>
+<p>To use it to convert marckdown to html5 put something like that:</p>
+<figure>
+<img src="images/PandocComand.png" alt="pandoc command" /><figcaption>pandoc command</figcaption>
+</figure>
+<h2 id="install-atom">4 Install Atom</h2>
+<p>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</p>
+<h3 id="ubuntu-instructions">Ubuntu instructions:</h3>
+<p>Currently only a 64-bit version is available.</p>
+<ul>
+<li>Download atom-amd64.deb from the Atom releases page.</li>
+<li>Run sudo dpkg --install atom-amd64.deb on the downloaded package.</li>
+<li>Launch Atom using the installed atom command.</li>
+<li>The Linux version does not currently automatically update so you will need to repeat these steps to upgrade to future releases.</li>
+</ul>
+<figure>
+<img src="images/atom.png" alt="Atom" /><figcaption>Atom</figcaption>
+</figure>
+<h2 id="install-marckdown-preview-plus">5 Install MarckDown-Preview-Plus</h2>
+<p>Markdown Preview Plus (MPP) is a fork of Markdown Preview that provides a real-time preview of markdown documents.</p>
+<h3 id="instalation-2">Instalation</h3>
+<ol type="1">
+<li>Search for and install markdown-preview-plus in Atom's Settings view.</li>
+<li>Search for and disable the built-in package markdown-preview.</li>
+<li>(Optional) Install and enable Pandoc.</li>
+</ol>
+<figure>
+<img src="images/markdownPrviwe.png" alt="MarckDownPreviewPLus" /><figcaption>MarckDownPreviewPLus</figcaption>
+</figure>
+<h3 id="use">use</h3>
+<p><code>To use it press Mayus + Ctrl + M</code></p>
+<h2 id="fonts">Fonts</h2>
+<ol type="1">
+<li>Git</li>
+</ol>
+<ul>
+<li>Font https://git-scm.com/book/en/v2/Getting-Started-Installing-Git (install)</li>
+<li>Font Manual git in command man. (usage)</li>
+</ul>
+<ol start="2" type="1">
+<li>NodeJS</li>
+</ol>
+<ul>
+<li>Font http://es.wikipedia.org/wiki/Node.js (introduction)</li>
+<li>Font http://nodejs.org/ (examples)</li>
+<li>Font Manual node in command man. (develop tutorial)</li>
+</ul>
+<ol start="3" type="1">
+<li>Pandoc</li>
+</ol>
+<ul>
+<li>Font http://pandoc.org/ (install)</li>
+<li>Font Manual Pandoc in command man. (usage)</li>
+</ul>
+<ol start="4" type="1">
+<li>Atom</li>
+</ol>
+<ul>
+<li>Font https://github.com/atom/atom (install)</li>
+</ul>
+<ol start="5" type="1">
+<li>MarckDown-Preview-Plus</li>
+</ol>
+<ul>
+<li>Font https://github.com/Galadirith/markdown-preview-plus(install and use)</li>
+</ul>
