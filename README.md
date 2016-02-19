@@ -1,14 +1,15 @@
-## Tarea Inicial
+* [My github page](https://ctc87.github.io/)
+* [PL subject page](http://ctc87.github.io/Practicas_PL/)
+* [Repository page](http://ctc87.github.io/tareas-iniciales-ctc87/)
 
-Configuración de las herramientas y tecnologías a utilizar en la asignatura Sistemas y Tecnologías Webs.
+#First Practice of PL
 
-* NodeJS
-* Express
-* Atom
-* GitHub
-* Cloud9
-* Markdown
+This is the first practice of Lenguage Procesors. This is called "First Tasks" and decribe
 
-[Página personal de prácticas](http://alu0100536652.github.io/)
+1. Install git
+2. Introduction to node.js
+3. Install and use Pandoc
+4. Install Atom
+5. Install MarckDownPreviewPLus
 
-[Página de la práctica inicial](http://alu0100536652.github.io/Tutorial-STW/)
+![Octogit](/images/Octocat.png)
