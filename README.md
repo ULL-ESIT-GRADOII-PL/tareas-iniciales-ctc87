@@ -1,6 +1,6 @@
 * [My github page](https://ctc87.github.io/)
 * [PL subject page](http://ctc87.github.io/Practicas_PL/)
-* [Repository_page](http://ctc87.github.io/tareas-iniciales-ctc87/)
+* [Repository page](http://ctc87.github.io/tareas-iniciales-ctc87/)
 
 #First Practice of PL
 
